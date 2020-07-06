@@ -1,0 +1,115 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{ background-color: #ff9a8f;}
+
+
+header{
+  background-image: url(https://cdn.lowgif.com/full/ea34f6b5d82ba930-im-genes-y-gifs-fondos-gifs-de-colores-arcoiris.gif);
+  background-position:center;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  padding:0;
+  border-left: 5px;
+  border-right:5px ;
+
+  font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header>h1{
+  font-size: 40px;
+}
+.marcador{
+  border: 5px solid rgb(212, 61, 154);
+  margin: 10px auto;
+  width: 200px;
+  color: rgb(211, 210, 228);
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-align: center;
+  padding:15px 15px;
+  position: relative;
+}
+.badge{
+  background: #e24d6d;
+  font-size: 15px;
+  border:3px solid rgb(224, 25, 35);
+  border-radius: 15px;
+  padding: 3px 4px;
+  font-family: 'Helvetucica Neue', sans-serif;
+}
+.user-label{
+  position: absolute;
+  top: auto;
+  left: -25px;
+  height: 50%;
+  width: 40%;
+}
+.comp-label{
+  position: absolute;
+  top: auto;
+  right: -25px;
+  height: 50%;
+  width: 40%;
+}
+#user-score, #comp-score{
+  padding: 3px;
+  font-size: 30px;
+}
+.result{
+  font-size: 35px;
+  color : hsl(256, 84%, 65%);
+}
+.result>p{
+  text-align: center;
+  font-family: monospace, cursive;
+}
+.opciones{
+  text-align: center;
+  margin: 80px 0;
+}
+.choice{
+  display: inline-block;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  padding: 25px;
+  margin: 30px;
+  transition: all 0.3s ease;
+}
+.choice:hover{
+  background: #6be24d;
+  cursor: pointer;
+}
+.accion{background-image: url(https://cdn.lowgif.com/full/ea34f6b5d82ba930-im-genes-y-gifs-fondos-gifs-de-colores-arcoiris.gif);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+ 
+}
+
+.verde{
+  border: 6px solid #cf1a47;
+  box-shadow: 0 0 10px greenyellow
+}
+.rojo{
+  border: 6px solid blue;
+  box-shadow: 0 0 10px red
+}
+.gris{
+  border: 6px solid  #cf1a47;
+  box-shadow: 0 0 10px gray
+}
+
