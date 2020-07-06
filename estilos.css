@@ -82,11 +82,11 @@ header>h1{
 }
 .choice{
   display: inline-block;
-  border: 10px solid #fff;
+  border: 8px solid #fff;
   border-radius: 50%;
   background: #fff;
-  padding: 25px;
-  margin: 30px;
+  padding: 20px;
+  margin: 25px;
   transition: all 0.3s ease;
 }
 .choice:hover{
